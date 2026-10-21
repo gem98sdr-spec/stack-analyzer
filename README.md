@@ -11,17 +11,17 @@ A highly intelligent, ultra-lightweight, single-file PHP script that instantly a
 
 ## How to Use
 
-Drop `index.php` into the root directory of any PHP project (or any folder you want to inspect).
+Drop `analyzer.php` into the root directory of any PHP project (or any folder you want to inspect).
 
 ### 1. Visual Dashboard
 Navigate to the file in your browser to see the cleanly formatted analysis:
-`http://your-domain.com/index.php`
+`http://your-domain.com/analyzer.php`
 
 ### 2. JSON API
 Fetch the exact same intelligence in JSON format by adding the `api=true` parameter.
 
 **Request:**
-`GET /index.php?api=true`
+`GET /analyzer.php?api=true`
 
 **Response:**
 ```json
